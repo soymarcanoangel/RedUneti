@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="col-md-12 row-content d-flex align-items-center rounded bg-white shadow">
+
+    <!-- Block de image -->
+    <div class="p-5 block" style="width: 50%; background-image: url('https://www.uneti.edu.ve/campus/pluginfile.php/30406/block_html/content/IMG_3289.JPG'); background-size: cover;">
+    </div>
+
+    <!-- Formulario de contacto -->
+    <div class="block p-5" style="width: 50%;">
+        <h2>Contacto</h2><br>
+        <form>
+            <div class="form-group">
+                <input type="text" class="form-control" id="nombre" placeholder="¿Cuál es tu nombre?">
+            </div><div class="text-success"><hr></div>
+            <div class="form-group">
+                <input type="email" class="form-control" id="correo" placeholder="¿Cuál es tu correo?">
+            </div><div class="text-success"><hr></div>
+            <div class="form-group">
+                <textarea class="form-control" id="mensaje" rows="3" placeholder="¿Qué quieres contarnos?"></textarea>
+            </div><br><div class="text-success"><hr></div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+
+</div>
+
+{% endblock %}

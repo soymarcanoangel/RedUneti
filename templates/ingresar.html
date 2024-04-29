@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<!-- Formulario de inicio de sesión -->
+<div class="col-md-12 row-content d-flex align-items-center rounded bg-white shadow">
+
+	<div class="p-5 block" style="width: 50%; background-image: url('https://www.uneti.edu.ve/campus/pluginfile.php/30406/block_html/content/WhatsApp%20Image%202022-06-10%20at%201.11.40%20PM.jpeg'); background-size: cover;">
+	</div>
+
+	<div class="p-5 block" style="width: 50%;">
+		<h2>Iniciar sesión</h2><br>
+		<form>
+			<div class="form-group">
+				<input type="email" class="form-control" id="email" placeholder="Ingresa tu email">
+			</div><div class="text-success"><hr></div>
+			
+			<div class="form-group">
+				<input type="password" class="for
+				m-control" id="password" placeholder="Ingresa tu contraseña">
+			</div><div class="text-success"><hr></div>
+
+			<button type="submit" class="btn btn-primary">Iniciar sesión</button>
+		</form>
+	</div>
+
+</div>
+
+{% endblock %}

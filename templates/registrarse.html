@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<!-- Formulario de registro -->
+<div class="col-md-12 row-content d-flex align-items-center rounded bg-white shadow">
+
+	<div class="p-5 block" style="width: 50%; background-image: url('https://www.uneti.edu.ve/campus/pluginfile.php/30406/block_html/content/IMG_3289.JPG'); background-size: cover;">
+	</div>
+
+	<div class="block p-5" style="width: 50%;">
+		<h2>Registro</h2>
+		<form>
+			<div class="form-group">
+				<input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre completo">
+			</div><div class="text-success"><hr></div>
+
+			<div class="form-group">
+				<input type="text" class="form-control" id="seccion" placeholder="¿A qué sección perteneces?">
+			</div><div class="text-success"><hr></div>
+
+			<div class="form-group">
+				<input type="email" class="form-control" id="correo" placeholder="Ingresa tu correo">
+			</div><div class="text-success"><hr></div>
+
+			<div class="form-group">
+				<input type="password" class="form-control" id="password" placeholder="Ingresa tu contraseña">
+			</div><br>
+			
+			<button type="submit" class="btn btn-primary">Enviar</button>
+		</form>
+	</div>
+</div>
+
+{% endblock %}
